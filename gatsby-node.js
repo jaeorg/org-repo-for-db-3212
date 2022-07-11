@@ -15,6 +15,7 @@ exports.createPages = async gatsbyUtilities => {
   // Query our posts and pages from the GraphQL server
   const pages = await getPages(gatsbyUtilities)
   const posts = await getPosts(gatsbyUtilities)
+  // new comment
 
   // If CMS has pages, create Gatsby pages for them
   if (pages.length) {
