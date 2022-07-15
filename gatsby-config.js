@@ -1,5 +1,5 @@
 const path = require("path")
-require("dotenv1").config({
+require("dotenv").config({
   path: path.resolve(process.cwd(), ".env.local"),
 })
 
